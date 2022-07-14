@@ -3,6 +3,7 @@ import { Rect, Text } from "react-konva";
 
 type Props = {
   group: group,
+  changeSlectedGroup: (group:number) => void,
 }
 
 export default function GroupIcon(props: Props) {
@@ -20,10 +21,12 @@ export default function GroupIcon(props: Props) {
       <Rect x={group.posX} y={group.posY} fill={group.color} width={rectW} height={rectH} cornerRadius={cornerRadius}
       onMouseDown={(e) => {
         console.log(group.name);
+        props.changeSlectedGroup(group.ID);
       }}/>
       <Text x={group.posX + 20} y={group.posY + 20} fontSize={fontSize} text={group.nameJp} fill={fontColor}
       onMouseDown={(e) => {
         console.log(group.name);
+        props.changeSlectedGroup(group.ID);
       }}/>
     </>
   );

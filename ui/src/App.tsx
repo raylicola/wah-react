@@ -14,6 +14,12 @@ function App() {
   const [loading, setLoading] = useState<boolean>(true);
   const [groups, setGroups] = useState<group[]>([]);
   const [backgrounds, setBackgrounds] = useState<background[]>([]);
+  const [selectedGroup, setSelectedGroup] = useState<group>();
+
+  const changeselectedGroup = (groupID: number) => {
+    const data = groups.find((el) => el.ID === groupID);
+    setSelectedGroup(data)
+  }
 
   useEffect(() => {
     setGroups(groupData);
@@ -45,7 +51,34 @@ function App() {
     <div className="App">
       {
         !loading &&
-        <HistoryCanvas groups={groups} backgrounds={backgrounds}/>
+        <HistoryCanvas groups={groups} backgrounds={backgrounds}
+        changeSlectedGroup={changeselectedGroup}/>
+      }
+      { selectedGroup &&
+        <div className='groupOverview'
+          style={
+            window.innerWidth >= 1300
+            ? {padding:'50px 100px', width: '1200px', fontFamily:'serif'}
+            : {padding:'50px 100px', fontFamily:'serif'}
+            }>
+          <div>
+            <h2>{selectedGroup.nameJp}</h2>
+            <p style={{'fontSize':'30px'}}>{selectedGroup.detail}</p>
+            <div>
+              {
+                // 絵画を表示
+              }
+            </div>
+            <div>
+              {
+                // 画家を表示
+              }
+            </div>
+          </div>
+          <div>
+
+          </div>
+        </div>
       }
     </div>
   );

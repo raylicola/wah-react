@@ -13,8 +13,8 @@ export default function backgroundIcon(props: Props) {
   const rectH = 60;
   const rectCornerRadius = 15;
   const rectColor = 'darkgray';
-  const textFontSize = 25;
-  const textColor = 'white';
+  const fontSize = 25;
+  const fontColor = 'white';
 
   return (
     <>
@@ -22,7 +22,7 @@ export default function backgroundIcon(props: Props) {
       onMouseDown={(e) => {
         console.log(background.name);
       }}/>
-      <Text x={background.posX + 20} y={background.posY + 20} fontSize={textFontSize} text={background.name} fill={textColor}
+      <Text x={background.posX + 20} y={background.posY + 20} fontSize={fontSize} text={background.name} fill={fontColor}
       onMouseDown={(e) => {
         console.log(background.name);
       }}/>
