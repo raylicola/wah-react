@@ -1,28 +1,36 @@
 export type group = {
+  ID: number
   age: number
-  color: string
-  detail: string
   name: string
   nameJp: string
+  detail: string
+  color: string
+  posX: number
+  posY: number
 }
 
 export type painter = {
+  ID: number
+  name: string
+  nameJp: string
   detail: string
   group: string
   imgPath: string
-  name: string
-  nameJp: string
 }
 
 export type art = {
+  ID: number
+  name: string
   detail: string
   group: number
   imgPath: string
-  name: string
 }
 
-export type backround = {
+export type background = {
+  ID: number
   age: number
-  detail: string
   name: string
+  detail: string
+  posX: number
+  posY: number
 }
