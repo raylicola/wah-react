@@ -1,11 +1,13 @@
-// import { painter } from '../models/models'
+import { painter } from '../models/models'
 
-// Props = {
-//   painter: painter,
-// };
+type Props = {
+  painter: painter,
+};
 
-export default function ArtContent() {
+export default function ArtContent(props: Props) {
   return (
-    <div></div>
+    <div>
+      
+    </div>
   );
 }

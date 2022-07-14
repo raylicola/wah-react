@@ -1,11 +1,13 @@
-// import { art } from '../models/models'
+import { art } from '../models/models'
 
-// Props = {
-//   art: art,
-// };
+type Props = {
+  art: art,
+};
 
-export default function ArtContent() {
+export default function ArtContent(props: Props) {
   return (
-    <div></div>
+    <div>
+      
+    </div>
   );
 }

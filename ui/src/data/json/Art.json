@@ -1,0 +1,23 @@
+[
+  {
+    "ID": 1,
+    "name": "民衆を導く自由の女神（ドラクロワ）",
+    "detail": "説明",
+    "group": "Romanticism",
+    "imgPath": "roman1"
+  },
+  {
+    "ID": 2,
+    "name": "マドリード（ゴヤ）",
+    "detail": "説明",
+    "group": "Romanticism",
+    "imgPath": "roman2"
+  },
+  {
+    "ID": 3,
+    "name": "解体されるために最後の停泊地に曳かれてゆく戦艦テメレール号（ターナー）",
+    "detail": "説明",
+    "group": "Romanticism",
+    "imgPath": "roman3"
+  }
+]
