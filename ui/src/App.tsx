@@ -21,23 +21,6 @@ function App() {
   useEffect(() => {
     setGroups(groupData);
     setBackgrounds(backgroundData);
-    // Cloud Firestore 利用時
-    // const groupDataObj: group[] = [];
-    // const groupData = collection(db, 'groups');
-    // getDocs(groupData).then((snapShot) => {
-    //   snapShot.forEach(elm => {
-    //     const data = elm.data()
-    //     let obj: group = {
-    //       age: data.age,
-    //       color: data.color,
-    //       detail: data.detail,
-    //       name: data.name,
-    //       nameJp: data.name_jp
-    //     };
-    //     groupDataObj.push(obj);
-    //   });
-    //   setGroups(groupDataObj);
-    // });
   }, []);
 
   useEffect(() => {
