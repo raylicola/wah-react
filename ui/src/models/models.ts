@@ -20,10 +20,9 @@ export type painter = {
 
 export type art = {
   ID: number
-  name: string
+  artist: string
+  title: string
   detail: string
-  group: number
-  imgPath: string
 }
 
 export type background = {
