@@ -1,6 +1,6 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import { group, painter, art, background } from './models/models';
+import { group, art, background } from './models/models';
 // import painterData from './data/json/Painter.json';
 import artData from './data/json/Art.json';
 import groupData from './data/json/Group.json';

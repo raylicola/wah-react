@@ -9,15 +9,6 @@ export type group = {
   posY: number
 }
 
-export type painter = {
-  ID: number
-  name: string
-  nameJp: string
-  detail: string
-  group: string
-  imgPath: string
-}
-
 export type art = {
   ID: number
   artist: string
