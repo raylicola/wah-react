@@ -54,7 +54,7 @@
 		"posY": 100,
 		"ID": 6,
     "age": 1885,
-    "name": "Post-Impressionism",
+    "name": "PostImpressionism",
 		"nameJp": "ポスト印象主義",
 		"color": "#darkcyan",
 		"detail": "特定の主義ではなく、印象派の影響を受けつつ独自の表現を開拓していった芸術思潮の総称。色や形を自由化し、現代絵画への歩みを進めた。"
@@ -94,7 +94,7 @@
 		"posY": 100,
 		"ID": 10,
     "age": 1940,
-    "name": "Abstract-Expressionism",
+    "name": "AbstractExpressionism",
 		"nameJp": "抽象主義",
 		"color": "#008b8b",
 		"detail": "具体的な対象を描かず、自由な色と形で絵を表現した。幾何学的で無機質な「冷たい抽象」、表現に重きを置き躍動感のある「熱い抽象」がある。"
