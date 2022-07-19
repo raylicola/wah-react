@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import { useEffect, useState } from 'react';
 import { group, art, background } from './models/models';
 // import painterData from './data/json/Painter.json';
