@@ -1,3 +1,4 @@
+import React from 'react';
 import { group } from '../models/models'
 import { Rect, Text } from "react-konva";
 
@@ -10,10 +11,10 @@ export default function GroupIcon(props: Props) {
 
   const group = props.group;
 
-  const rectW = 80 + group.nameJp.length * 20;
-  const rectH = 60;
+  const rectW = 60 + group.nameJp.length * 15;
+  const rectH = 40;
   const cornerRadius = 15;
-  const fontSize = 25;
+  const fontSize = 20;
   const fontColor = 'white';
 
   return (
@@ -22,7 +23,7 @@ export default function GroupIcon(props: Props) {
       onMouseDown={(e) => {
         props.changeSlectedGroup(group.ID);
       }}/>
-      <Text x={group.posX + 20} y={group.posY + 20} fontSize={fontSize} text={group.nameJp} fill={fontColor}
+      <Text x={group.posX + 15} y={group.posY + 12} fontSize={fontSize} text={group.nameJp} fill={fontColor}
       onMouseDown={(e) => {
         props.changeSlectedGroup(group.ID);
       }}/>

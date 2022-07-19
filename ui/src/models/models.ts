@@ -20,7 +20,6 @@ export type background = {
   ID: number
   age: number
   name: string
-  detail: string
   posX: number
   posY: number
 }
