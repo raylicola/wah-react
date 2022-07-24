@@ -1,7 +1,9 @@
 # wah-react
-西洋美術史（主に近代以降）の流れが分かるWebサイト<br>
-年表のアイコンをクリックすると詳細が見れます<br>
-https://wah-react.herokuapp.com/
+西洋美術史（主に近代以降）の流れが分かるWebサイト.<br>
+年表のアイコンをクリックすると詳細が見れます.<br>
+* 絵の説明文が未完成
+
+サイトURL : https://wah-react.herokuapp.com/
 
 ## 使用技術
 * React
